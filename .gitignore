@@ -1,0 +1,13 @@
+build
+build/*
+
+.vs
+.vs/*
+.vscode
+.vscode/*
+include/gstone/exec/threadpool
+print_rt_thread.sh
+**/demo/
+gdb
+.cache/
+**/demo_schedule/note.md

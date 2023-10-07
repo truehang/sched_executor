@@ -1,0 +1,4 @@
+@PACKAGE_INIT@
+include("${CMAKE_CURRENT_LIST_DIR}/deterministic_scheduler.cmake")
+set_and_check(deterministic_scheduler_INCLUDE_DIR "@PACKAGE_INCLUDE_INSTALL_DIR@")
+check_required_components(deterministic_scheduler)
